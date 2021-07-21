@@ -43,7 +43,6 @@ header {
 }
 main {
     display:grid;
-    grid-template-rows: 0.5fr 10fr;
 }
 .list {
     background-color: darkgray;
@@ -51,13 +50,14 @@ main {
 }
 #clan {
     float: left;
-    margin-left: 30px;
+    width: 13.7%;
 }
 #clan a {
     display: block;
-    height: 4.2vh;
-    width: 4vw;
+    font-size: 1rem;
+    width: 100%;
     line-height: 4.2vh;
+
 }
 #clan:hover #data {
     display: block;
@@ -97,9 +97,9 @@ main {
 }
 .control a {
     background: gray;
-    font-size: 20px;
-    height: 3vh; 
-    width: 8vh;
+    font-size: 1rem;
+    height: 2rem; 
+    width: 4rem;
     border-radius: 10px;
     margin-right: 1vw;
 }
@@ -110,9 +110,9 @@ main {
 .control form input {
     border: none;
     background: gray;
-    font-size: 20px;
-    height: 3vh; 
-    width: 8vh;
+    font-size: 1rem;
+    height: 2rem; 
+    width: 4rem;
     border-radius: 10px;
 }
 input[type='text'] {
@@ -129,9 +129,9 @@ textarea {
 #update a {
     border: none;
     background: gray;
-    font-size: 20px;
-    height: 3vh; 
-    width: 8vh;
+    font-size: 1rem;
+    height: 2rem; 
+    width: 4rem;
     border-radius: 10px;
     margin-right: 1vw;
     text-align: center;
@@ -142,9 +142,9 @@ textarea {
 #create a {
     border: none;
     background: gray;
-    font-size: 20px;
-    height: 3vh; 
-    width: 8vh;
+    font-size: 1rem;
+    height: 2rem; 
+    width: 4rem;
     border-radius: 10px;
     margin-right: 1vw;
     text-align: center;
@@ -152,9 +152,9 @@ textarea {
 input[type='submit'] {
     border: none;
     background: gray;
-    font-size: 20px;
-    height: 3vh; 
-    width: 8vh;
+    font-size: 1rem;
+    height: 2rem; 
+    width: 4rem;
     border-radius: 10px;
     margin-right: 1vw;
 }
