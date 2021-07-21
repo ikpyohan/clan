@@ -68,12 +68,9 @@ main {
     line-height: 4.2vh;
 
 }
-#clan:hover #data {
-    display: block;
-}
-#data {
-    display: none;
-    background-color: darkgray;
+#data a {
+    padding-left: 1rem;
+    text-align: left;
 }
 .center {
     width: 70%;
