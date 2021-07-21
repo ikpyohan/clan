@@ -7,7 +7,7 @@ var indexRouter = require('./routes/index');
 var helmet = require('helmet');
 
 
-
+app.set('port', (process.env.PORT || 5000));
 app.use(helmet());
 app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: false }));
@@ -24,4 +24,6 @@ app.use('/', indexRouter);
 app.use('/', topicRouter);
 
 
-app.listen(3000, () => console.log('listening on port 3000'))
+app.listen(app.get('port'), function () {
+  console.log('App is running, server is listening on port ', app.get('port'));
+});
