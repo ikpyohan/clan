@@ -48,6 +48,15 @@ main {
     background-color: darkgray;
     height: 4.2vh;
 }
+#create_btn {
+    width: 5rem;
+    margin-left: 15rem;
+    text-align: center;
+    height:4.2vh;
+}
+#create_btn:hover {
+    background-color: gray;
+}
 #clan {
     float: left;
     width: 13.7%;
@@ -114,6 +123,7 @@ main {
     height: 2rem; 
     width: 4rem;
     border-radius: 10px;
+    margin-right: 1vw;
 }
 input[type='text'] {
     width: 40vw;
@@ -122,6 +132,31 @@ input[type='text'] {
 textarea {
     width: 40vw;
     height: 68vh;
+}
+
+#create {
+    display: flex;
+}
+#create a {
+    border: none;
+    background: gray;
+    font-size: 1rem;
+    height: 2rem; 
+    width: 4rem;
+    border-radius: 10px;
+    margin-right: 1vw;
+    text-align: center;
+}
+#create input {
+    border: none;
+    background: gray;
+    font-size: 1rem;
+    height: 2rem; 
+    width: 4rem;
+    border-radius: 10px;
+    margin-right: 1vw;
+    text-align: center;
+
 }
 #update {
     display: flex;
@@ -136,10 +171,7 @@ textarea {
     margin-right: 1vw;
     text-align: center;
 }
-#create {
-    display: flex;
-}
-#create a {
+#update input {
     border: none;
     background: gray;
     font-size: 1rem;
@@ -149,16 +181,6 @@ textarea {
     margin-right: 1vw;
     text-align: center;
 }
-input[type='submit'] {
-    border: none;
-    background: gray;
-    font-size: 1rem;
-    height: 2rem; 
-    width: 4rem;
-    border-radius: 10px;
-    margin-right: 1vw;
-}
-
 
 
 @font-face {
