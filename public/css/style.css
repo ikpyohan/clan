@@ -97,7 +97,7 @@ main {
     background: gray;
     font-size: 20px;
     height: 3vh; 
-    width: 5vh;
+    width: 8vh;
     border-radius: 10px;
     margin-right: 1vw;
 }
@@ -110,7 +110,7 @@ main {
     background: gray;
     font-size: 20px;
     height: 3vh; 
-    width: 5vh;
+    width: 8vh;
     border-radius: 10px;
 }
 input[type='text'] {
@@ -129,7 +129,7 @@ textarea {
     background: gray;
     font-size: 20px;
     height: 3vh; 
-    width: 5vh;
+    width: 8vh;
     border-radius: 10px;
     margin-right: 1vw;
     text-align: center;
@@ -142,7 +142,7 @@ textarea {
     background: gray;
     font-size: 20px;
     height: 3vh; 
-    width: 5vh;
+    width: 8vh;
     border-radius: 10px;
     margin-right: 1vw;
     text-align: center;
@@ -152,7 +152,7 @@ input[type='submit'] {
     background: gray;
     font-size: 20px;
     height: 3vh; 
-    width: 5vh;
+    width: 8vh;
     border-radius: 10px;
     margin-right: 1vw;
 }
