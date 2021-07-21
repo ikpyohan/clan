@@ -7,7 +7,7 @@ var indexRouter = require('./routes/index');
 var helmet = require('helmet');
 
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 3000));
 app.use(helmet());
 app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: false }));

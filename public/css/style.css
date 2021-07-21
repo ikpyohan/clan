@@ -75,14 +75,16 @@ main {
 }
 .body {
     min-height: 70vh;
+    width: 70vw;
+}
+.body pre {
+    white-space: pre-wrap;
+    padding-left: 10px;
 }
 .body h2 {
     border-bottom: 1px solid black;
     padding: 10px;
     margin-top: 3px;
-}
-.body p {
-    padding-left: 10px;
 }
 .control {
     display: flex;

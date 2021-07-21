@@ -17,7 +17,7 @@ fs.readFile(`data/${filteredId}`, 'utf8', (err, description) => {
     });
     var list = template.list(req.list);
     var html = template.HTML(sanitizedTitle, list,
-    `<h2>${sanitizedTitle}</h2><p>${sanitizedDescription}</p>`,
+    `<h2>${sanitizedTitle}</h2><pre>${sanitizedDescription}</pre>`,
     ` <a href="/update/${sanitizedTitle}">update</a>
         <form action="/delete" method="post">
         <input type="hidden" name="id" value="${sanitizedTitle}">
