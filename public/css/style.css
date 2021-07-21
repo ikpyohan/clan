@@ -95,9 +95,9 @@ main {
 }
 .control a {
     background: gray;
-    font-size: 1rem;
-    height: 2rem; 
-    width: 4rem;
+    font-size: 20px;
+    height: 3vh; 
+    width: 5vh;
     border-radius: 10px;
     margin-right: 1vw;
 }
@@ -108,9 +108,9 @@ main {
 .control form input {
     border: none;
     background: gray;
-    font-size: 1rem;
-    height: 2rem; 
-    width: 4rem;
+    font-size: 20px;
+    height: 3vh; 
+    width: 5vh;
     border-radius: 10px;
 }
 input[type='text'] {
@@ -127,9 +127,9 @@ textarea {
 #update a {
     border: none;
     background: gray;
-    font-size: 1rem;
-    height: 2rem; 
-    width: 4rem;
+    font-size: 20px;
+    height: 3vh; 
+    width: 5vh;
     border-radius: 10px;
     margin-right: 1vw;
     text-align: center;
@@ -140,9 +140,9 @@ textarea {
 #create a {
     border: none;
     background: gray;
-    font-size: 1rem;
-    height: 2rem; 
-    width: 4rem;
+    font-size: 20px;
+    height: 3vh; 
+    width: 5vh;
     border-radius: 10px;
     margin-right: 1vw;
     text-align: center;
@@ -150,9 +150,9 @@ textarea {
 input[type='submit'] {
     border: none;
     background: gray;
-    font-size: 1rem;
-    height: 2rem; 
-    width: 4rem;
+    font-size: 20px;
+    height: 3vh; 
+    width: 5vh;
     border-radius: 10px;
     margin-right: 1vw;
 }
